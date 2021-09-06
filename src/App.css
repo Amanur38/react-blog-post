@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+.container {
+  justify-content: center;
+  align-items: center;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.blog-item {
+  width: 29.33%;
+  margin: 5px;
+  padding: 10px;
+  box-shadow: 0px 0px 2px #ccc;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+.blog-item a {
+  text-decoration: none;
+}
+.text-center {
+  text-align: center;
+}
+.single-post {
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 769px) {
+  .single-post {
+    width: 90%;
+  }
+  .blog-item {
+    width: 98%;
+  }
+}
